@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: subhransu-second-pod
+ name: subhransu-first-pod
 spec:
  containers:
    - name: subhransu-first-container
