@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: subhransu-first-pod
+ name: subhransu-second-pod
 spec:
  containers:
-   - name: subhransu-second-container
+   - name: subhransu-first-container
      image: nginx
      ports:
      - containerPort: 80
