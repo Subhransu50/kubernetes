@@ -4,7 +4,7 @@ metadata:
  name: subhransu-first-pod
 spec:
  containers:
-   - name: subhransu-first-container
+   - name: subhransu-second-container
      image: nginx
      ports:
      - containerPort: 80
